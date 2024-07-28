@@ -59,6 +59,14 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // 添加compose 的 viewmodel 的依赖
+    implementation(libs.bundles.lifecycle)
+    // 添加 retrofit 的依赖
+    implementation(libs.bundles.retrofit)
+    // 添加下载网络图片 sdk 的依赖
+    implementation(libs.bundles.image)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
